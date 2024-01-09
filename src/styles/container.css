@@ -1,9 +1,10 @@
 .container {
   width: 240px;
   height: 330px;
-  background-color: aqua;
+  background-color: rgb(76, 76, 76);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
