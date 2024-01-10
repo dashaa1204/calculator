@@ -1,10 +1,13 @@
 import "../styles/buttons.css";
 import "../styles/button0.css";
+import React from "react";
 
-export default function Buttons(props) {
-  const num = props.num;
+export default function Buttons({ num, changeScreenVal }) {
   return (
-    <div className={props.num == 0 ? "button0" : "buttons"} key={props.index}>
+    <div
+      className={num == 0 ? "button0" : "buttons"}
+      onClick={() => changeScreenVal(num)}
+    >
       {num}
     </div>
   );

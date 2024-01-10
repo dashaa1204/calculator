@@ -7,9 +7,6 @@
   display: flex;
   justify-content: end;
   align-items: end;
-}
-
-.display p {
   font-size: 50px;
   color: white;
 }
