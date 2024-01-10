@@ -1,3 +1,5 @@
-export default function Display() {
-  return <div className="display"></div>;
+import "../styles/display.css";
+
+export default function Display({ value }) {
+  return <div className="display">{value}</div>;
 }
