@@ -16,7 +16,6 @@ export default function App() {
   const [currentScreen, setCurrentScreen] = useState("");
   const [prevScreen, setPrevScreen] = useState("");
   const [todoOp, setTodoOp] = useState("");
-  
 
   function changeTodoOp(val) {
     setTodoOp(val);
@@ -41,10 +40,6 @@ export default function App() {
 
   function changeScreenVal(val) {
     setCurrentScreen(currentScreen + val);
-  }
-
-  function handOps(val){
-    if()
   }
   return (
     <div className="container">
