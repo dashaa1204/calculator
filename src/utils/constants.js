@@ -1,7 +1,4 @@
 export const characters = [
-  "C",
-  "+/-",
-  "%",
   "7",
   "8",
   "9",
@@ -16,3 +13,4 @@ export const characters = [
 ];
 
 export const operators = ["-", "+", "*", "/"];
+export const handOp = ["C", "+/-", "%"];

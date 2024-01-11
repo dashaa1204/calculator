@@ -1,11 +1,10 @@
-.button0 {
+.rightbuttons {
   border: 0.1px solid grey;
-  background-color: rgb(214, 214, 214);
-  grid-column: 1 / span 2;
-  grid-row: 4;
+  background-color: rgb(255, 158, 11);
   cursor: pointer;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
